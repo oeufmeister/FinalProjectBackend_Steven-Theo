@@ -16,10 +16,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomeController@product')->name('product');
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/billReceipt', 'ReceiptController@product')->name('product');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/billReceipt','ReceiptController@index');
+Route::get('/getPrice/{id}', 'ReceiptController@getPrice');
 
 // Route::get('products', function(){
 //     $product = DB::table('products')->get();
