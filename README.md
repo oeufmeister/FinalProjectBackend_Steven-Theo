@@ -9,12 +9,13 @@
 
 Sebelum serve, diharapkan menjalankan beberapa command dibawah ini terlebih dahulu :
 
-php artisan db:seed --class=PermissionTableSeeder
+```php artisan db:seed --class=PermissionTableSeeder```
 
 dan juga
 
-php artisan db:seed --class=CreateAdminUserSeeder
+```php artisan db:seed --class=CreateAdminUserSeeder```
 
 untuk masuk, dapat menggunakan
+
 Email : ganteng@gmail.com
 password : 123456
