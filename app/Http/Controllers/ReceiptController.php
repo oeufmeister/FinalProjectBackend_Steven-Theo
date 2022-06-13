@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Redirect;
 use App\Product;
-use Illuminate\Support\Facades\Response;
+// use Illuminate\Support\Facades\Response;
 
 class ReceiptController extends Controller
 {
@@ -20,7 +20,8 @@ class ReceiptController extends Controller
     {
         $getPrice = $_GET['id'];
         $price  = DB::table('products')->where('id', $getPrice)->get();
-        return Response::json($price);
+        // return Response::json($price);
+        return response()->json($price);
     }   
 
     public function product(){
