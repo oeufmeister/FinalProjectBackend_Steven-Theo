@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Http\Response;
 use Redirect;
 use App\Product;
+use Illuminate\Support\Facades\Response;
 
 class ReceiptController extends Controller
 {

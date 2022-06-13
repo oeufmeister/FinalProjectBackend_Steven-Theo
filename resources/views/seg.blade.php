@@ -109,12 +109,27 @@
     </body>
 </html>
 <script>
+    $.ajax({
+            type:'GET',
+            url:'/getPrice/{id}',
+            data:{id:2},
+            dataType:'json',
+            success:function(data)
+                {
+                
+                $.each(data, function(key, resp)
+                {     
+                $('#price').text(resp.price);
+                });
+                }
+        });
     $(document).ready(function(){
         $('#vegitable').change(function() {
-        var ids =   $(this).find(':selected')[0].id;
-        $.ajax({
+            var ids =   $(this).find(':selected')[0].id;
+            console.log(ids);
+            $.ajax({
             type:'GET',
-            url:'getPrice/{id}',
+            url:'/getPrice/{id}',
             data:{id:ids},
             dataType:'json',
             success:function(data)
