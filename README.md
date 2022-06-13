@@ -1,4 +1,4 @@
-<p align="center"><img src="https://media.discordapp.net/attachments/891959446857744394/983767415743741972/Tesla_Model_Sus.png?width=1440&height=360" width="400"></p>
+<p align="center"><img src="https://media.discordapp.net/attachments/891959446857744394/983767415743741972/Tesla_Model_Sus.png?" width="700"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
