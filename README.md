@@ -7,17 +7,9 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-Sebelum serve, diharapkan menjalankan beberapa command dibawah ini terlebih dahulu :
-
-```php artisan db:seed --class=PermissionTableSeeder```
-
-dan juga
-
-```php artisan db:seed --class=CreateAdminUserSeeder```
-
-untuk masuk, dapat menggunakan
+untuk masuk, dapat menggunakan user dengan role Admin yang sudah dibuat oleh seeder dibawah ini: 
 
 Email : ganteng@gmail.com
 password : 123456
 
-hehe
+🥶🥶🥶
